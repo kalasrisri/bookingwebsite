@@ -1,0 +1,124 @@
+.pic
+{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-width: 2px;
+    border-radius: 2px;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.31);
+    margin-top: 10px;
+    display: block;
+ 
+}
+.video-title
+{
+    width: 300px;
+}
+.video-author,
+.video-stats
+{
+    color: rgb(96, 96, 96);
+    display: block;
+}
+
+.di 
+{
+    vertical-align:top;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block;
+    cursor: pointer;
+}
+.sub{
+    background-color: rgb(205, 1, 1);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+ body, ul {
+   margin: 0;
+   padding: 0;
+ }
+
+ .navbar {
+   background-color: #333;
+   color: #fff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 60px;
+   padding: 0 20px;
+ }
+
+ .navbar .logo {
+   text-align: center;
+ }
+
+ .navbar ul {
+   display: flex;
+   list-style: none;
+ }
+
+ .navbar ul li {
+   margin-right: 15px;
+ }
+
+ .navbar ul li a {
+   color: #fff;
+   text-decoration: none;
+ }
+ .navbar .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+
+ .navbar .dropdown:hover .dropdown-content {
+   display: block;
+ }
+
+ .navbar .dropdown-content a {
+   color: #333;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+
+ .navbar .search-bar {
+   display: flex;
+   
+   margin-right: 15px;
+ }
+
+ .navbar .search-bar input[type="text"] {
+   padding: 8px;
+   border: none;
+   border-radius: 4px;
+ }
+
+ .navbar .search-bar button {
+   padding: 8px 12px;
+   background-color: #555;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   margin-left: 5px;
+   cursor: pointer;
+ }
+#imag{
+    background-image:url('../assests/logd.avif');
+    
+}

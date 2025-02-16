@@ -1,0 +1,112 @@
+.bodys{
+    background-image: url(https://thumbs.dreamstime.com/b/rain-drops-window-bokeh-lights-street-79672949.jpg);
+    height: 70vh;
+}
+.booking-form-box
+{
+    max-width:350px;
+    border: 1px solid #010a12;
+    margin-left: 520px;
+    padding-top: 20px;
+   position: absolute;
+   top: 40%;
+
+}
+.radio-btn
+{
+    font-weight: bold;
+    text-align: center;
+    margin:0 20px;
+    padding-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.radio-btn .radio-btn{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+.radio-btn .btn::after
+{
+    content: '';
+    height:15px;
+    width:15px;
+    top:-2px;
+    left:-1px;
+    background-color:#fff;
+    position:inline-block;
+    border:3px solid #161212;
+    visibility:visible;
+    border-radius:30px;
+}
+.radio-btn .btn:checked::after
+{
+    content: '';
+    background-color: #000;
+    transition:0.5s;
+    
+
+}
+.radio-btn span{
+    color:#0c0101;
+    margin-right:5px;
+    font-size:12px;
+}
+.booking-form-box{
+    padding:0 20px 20px;
+}
+.booking-form-label
+{
+    margin-bottom:5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color:#0f0202
+}
+input::placeholder{
+    color:#080101 !important;
+}
+.input-grp
+{
+    width:151px;
+    display: inline-block;
+    color: #0e0b0b;
+}
+.form-control
+{
+    font-size:12px !important;
+    border-radius:0 !important;
+    color:#140101 !important;
+    background:transparent !important;
+    box-shadow:none !important;
+}
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button
+{
+-webkit-appearence: none;
+margin:0;
+
+}
+.select-date::-webkit-calender-picker-indicator{
+    background:transparent !important;
+     
+}
+.custom-select
+{
+    color:#0f0e0e;
+    font-size:12px;
+    border:1px solid #ced4da !important;
+    box-shadow: none !important;
+    border-radius:0 !important;
+    background: transparent !important;
+}
+.custom-select option{
+    color:#1a0101;
+}
+.bus{
+    width:100%;
+    padding:9px 0;
+    font-size:12px !important;
+    border: 1px solid #ced4da !important;
+    background:transparent !important;
+    box-shadow: none !important;
+    border-radius:0 !important;
+}

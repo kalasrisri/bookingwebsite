@@ -1,0 +1,110 @@
+#head{
+    color:black;
+    font-style: italic;
+    font-family: cursive;
+    top: 40%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10%;
+    font-weight: bold;
+
+}
+#heading{
+    color:black;
+    font-style: italic;
+    font-family: cursive;
+    top: 100%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 2%;
+    font-weight: bold;
+    
+}
+#but{
+    color: black;
+    background-color: rgb(168, 193, 238);
+    top: 460%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    right: 40%;
+    border-radius: 10px;
+    border-color:  rgb(168, 193, 238);
+}
+#backbut{
+    color: black;
+    background-color: rgb(168, 193, 238);
+    top: 530%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    right: 45%;
+    border-radius: 10px;
+    border-color:  rgb(168, 193, 238);
+    width: auto;
+}
+#butt{
+    color: black;
+    background-color: rgb(168, 193, 238);
+    top: 320%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    right: 40%;
+    border-radius: 10px;
+    border-color:  rgb(168, 193, 238);
+}
+#hotel{
+    color:aliceblue;
+    font-style: italic;
+    font-family: cursive;
+    top: 35%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 40%;
+    font-weight: bold;
+    word-spacing: 8px;
+    
+}
+#hoteles{
+    color:white;
+    font-style: italic;
+    font-family: cursive;
+    top: 45%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 25%;
+    font-weight: bold;
+    word-spacing: 8px;
+    
+}
+#hotels{
+    color:white;
+    font-style: italic;
+    font-family: cursive;
+    top: 50%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 15%;
+    font-weight: bold;
+    word-spacing: 10px;
+    padding: 10px;
+    
+}
+#spac{
+    color:white;
+    font-style: italic;
+    font-family: cursive;
+    top: 55%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20%;
+    font-weight: bold;
+    
+}
